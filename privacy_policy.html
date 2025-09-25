@@ -1,1 +1,302 @@
-<h1> Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+
+    <!-- <link rel="icon" href="../resources/img/100px by 100px.png"> -->
+    <title>My shop| Privacy policy</title>
+
+    <style type="text/css">
+
+
+:root{
+    --prussian_blue: #003249;
+    --main-color: royalblue;
+    --secondary-color:orangered;
+    --green: #27ae60;
+    --black: #333;
+    --white: #fff;
+    --light-bg-color: #f2f3f5;
+    --border-color: #e5e8ec;
+   
+    --color-dark: #1D2231;
+    --text-grey: #8390A2;
+    --coolor: #6ea1e9;
+    --blueViolet: blueviolet;
+    --beautiful: #6e25f5;
+    --more_transparent_dark: #1D223170;
+    /* --transparent_dark: #1D223180; */
+    --transparent_dark: #1D223120;
+    --colorful: #07ABF4;
+    --damnOrange: #FA9A0D;
+    --crimson: crimson;
+    --colorful-transparent: #07ABF420;
+    --navy: #07572b;
+      
+    --swiper-navigation-size: 20px;
+    --swiper-theme-color: var(--text-grey);
+    --swiper-navigation-color: var(var(--coolor));
+    --black-custom: #121829a9;
+} 
+*{ 
+    /* font-family: 'Poppins'; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+/* global styling */
+ 
+h1{
+    font-size: 3rem;
+    font-weight: 700;  
+ }
+ h2{
+    font-size: 1.5rem;
+    font-weight: 500;  
+ }
+ h6{
+    font-size:1.1rem;
+    font-weight: 500;
+    /* color:darkblue; */
+ }
+
+  h1, h2 {
+      color: #222;
+    }
+    strong {
+      color: #000;
+    }
+
+ /* showcase image */
+
+ #show-case {
+     background: var(--prussian_blue);
+    display: flex;
+    /* background: var(--prussian_blue); */
+    height: 50vh;
+    /* background-size: cover;
+    background-position: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#show-case .text-color-sec h1{
+    color: var(--colorful);
+}
+
+#show-case .text-color-sec h1::after{
+    content: ""; 
+    height: 5px;
+    width: 30%;
+    background-color: var(--white);
+    border-radius: 25px;
+     display: block; 
+     margin: auto; 
+}
+
+#main-content-services {
+    background: var(--white);
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    width: 95%;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+}
+
+#services {
+    padding: 4vw;
+}
+
+
+/* navigation styling */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    padding: 10px;
+    /* background: var(--color-dark); */
+      background: var(--border-color);
+    transition: .6s ease-in-out;
+    box-shadow: 2px 2px 10px rgb(0, 102, 255);
+}
+
+nav #brand h2{
+    color: var(--colorful);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+  .text-color-sec p {
+            color: #64748b; /* Lighter text for subtitle like slate-500 */
+            font-size: 1.1rem;
+            margin: 0;
+            padding-top: 0.5rem;
+        }
+
+
+        .text-color-sec p strong {
+            color: var(--white); /* Darker text for strong/bold text like slate-900 */
+        }
+
+          /* Strong/Bold Text */
+        strong {
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+   
+    <nav>
+        <section id="brand">
+        <h2>DiWtech solutions(My Shop App)</h2>
+        </section>
+        </nav>
+
+
+<main>
+
+    <section id="show-case">
+        <div class="text-color-sec">
+         <h1>Privacy policy</h1>
+         <p><strong>Effective Date:</strong> August 01, 2025</p>
+        </div>
+    </section>
+
+
+    <section id="main-content-services">
+        <section id="services">
+<p>
+    This Privacy Policy has been created to help you understand how your information is handled while using our application. 
+    Please read it carefully to gain a clear understanding of how we collect, use, protect, or otherwise manage your information.
+</p>
+<p>
+    <strong>My Shop</strong> is a mobile Point of Sale (POS) application designed to help shop owners, small businesses, and individuals 
+    manage their products and sales directly from their Android devices. We respect your privacy and are committed to protecting it. 
+    This Privacy Policy explains how the app handles your information.
+</p>
+
+<h2>1. Information We Collect</h2>
+<p>
+  <strong>We, the developers of My Shop, do not collect, transmit, or have access to any of your personal data.</strong> 
+  All the information you enter in the app is stored locally on your device only. 
+  The types of data you may choose to enter include:
+</p>
+<ul>
+  <li>Product details (product code, product name, category, quantity, buy price, sell price, manufacture date, expiry date)</li>
+  <li>Sales records (items sold, sales amount, payment method, amount paid, change, and additional notes)</li>
+  <li>Locally stored identifiers you create within the app (such as product codes or custom notes)</li>
+  <li>Advertising identifiers (used by Google AdMob to display ads — no personally identifiable information is shared by us)</li>
+  <li>General usage data collected automatically by the Google Play Store or AdMob (for example: device type, crash logs, performance data)</li>
+</ul>
+
+<h2>2. How Information Is Used</h2>
+<p>All personal data is stored <strong>locally on your device only</strong>. The App does not send, transmit, or back up this information to any remote server or cloud service. As developers, we do not have access to any of your personal or sales-related data.</p>
+
+<h2>3. Data Retention & Deletion</h2>
+<p>You can edit or delete any data within the app at any time. Uninstalling the app will permanently delete all stored data from your device.</p>
+
+<h2>4. Data Storage and Security</h2>
+<p>
+    All information is stored securely on your local device storage. You are solely responsible for managing your data, including backing it up or deleting it. Please be aware that if your device is lost or the data is deleted, it cannot be recovered.
+</p>
+
+<h2>5. Third-Party Services</h2>
+<p>
+  <strong>My Shop</strong> app uses third-party services to provide certain features. These include:
+</p>
+<ul>
+  <li>Advertising platforms (e.g., Google AdMob)</li>
+</ul>
+
+<p>
+  This app uses <strong>Google AdMob</strong> to display banner and other ads. AdMob may collect certain 
+  non-personally identifiable information (such as device identifiers, usage data, and general location) 
+  in order to provide personalized and non-personalized advertisements. For more information, please review 
+  Google’s <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.
+</p>
+
+<p>
+  We do not share any personal or sales-related data with Google AdMob or any other third party. 
+  Any information collected for advertising purposes is collected directly by Google.
+</p>
+
+<p>
+  While the app itself does not collect or transmit your personal data, 
+  please note that <strong>Google Play</strong> may automatically collect 
+  basic information such as device type, app usage statistics, and crash reports. 
+  This information is managed by Google under their own 
+  <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> 
+  and is not accessible to the app developer.
+</p>
+
+<h2>6. GDPR Compliance (EEA & UK Users)</h2>
+<p>
+  If you are located in the European Economic Area (EEA) or the United Kingdom, you may be shown a consent form 
+  when using the app. This consent form allows you to choose whether you would like to receive personalized 
+  or non-personalized ads. You can update or withdraw your consent at any time via your device or Google account settings.
+</p>
+
+<h2>7. CCPA Compliance (California Users)</h2>
+<p>
+  If you are a resident of California, you have the right to opt out of personalized advertising. 
+  You can exercise this right by visiting Google’s <a href="https://www.google.com/settings/ads/" target="_blank">Ads Settings</a>.
+</p>
+
+<h2>8. Children’s Privacy</h2>
+<p>The App is not intended for children under the age of 13. We do not knowingly collect or store any personal information from children.</p>
+
+<h2>9. Intellectual Property</h2>
+<p>
+    All icons, illustrations, animations, and other media used in <strong>My Shop app</strong> are sourced from publicly available open-source or free-to-use repositories such as Flaticon, Freepik, Font Awesome, and LottieFiles. 
+    Where attribution is required, it is provided in the app’s <strong>“Credits & Acknowledgements”</strong> Section in about screen in accordance with the original license agreements.
+</p>
+<p>All trademarks, logos, and brand names appearing in the App are the property of their respective owners. Use of these assets is in accordance with their respective intellectual property guidelines.</p>
+<p>The developer of My Shop app does not claim ownership of third-party assets used with attribution and respects all copyright and intellectual property rights.</p>
+
+<h2>10. Attribution</h2>
+<p>This app uses graphic resources with proper attribution:</p>
+<ul>
+  <li>Image icons: Sourced from <a href="https://www.flaticon.com" target="_blank">Flaticon.com</a></li>
+</ul>
+<p>Full credits are available in the "Credits & Acknowledgements" section within the app.</p>
+
+<h2>11. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy occasionally. Any changes will be posted within the App and/or updated in the app store listing with a new effective date.</p>
+
+<h2>12. Contact Us</h2>
+<p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
+<p>Email: <strong>wanyaladismas5@gmail.com</strong></p>
+<p>Thank you for using Our App.</p>
+
+        </section>
+   </section> 
+
+
+</main>
+
+</body>
+
+</html>
